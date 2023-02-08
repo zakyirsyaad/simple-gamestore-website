@@ -1,0 +1,306 @@
+
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #282a3a;
+    max-width: 100%;
+}
+.semua{
+    max-width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 7px 15px 0px rgba(0, 0, 0, 5);
+}
+.brand{
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.brand > .firstname > a{
+    color: #C69749;
+    text-decoration: none;
+    
+}
+.firstname{
+    font-size: 30px;
+    font-weight: 700;
+    color: #C69749;
+    font-style: italic;
+}
+.lastname{
+    font-size: 15px;
+    font-weight: 200;
+    padding-left: 5px;
+    color: white;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.navigation > li{
+    list-style-type: none;
+    padding: 15px;
+}
+.navigation > li > a{
+    color: #282a3a;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+.login{
+    background-color: #C69749;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.login:hover{
+    background-color: #c6964967;
+    color: whitesmoke;
+}
+.searchbox{
+    background-color: #C69749;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.searchbox > input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px;
+}
+.searchbox > input::placeholder{
+    color: black;
+}
+/* ------------------------------------- */
+.container{
+    float: left;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.kiri{
+    width: 30%;
+    color:#C69749
+}
+.a{
+    margin-bottom: 20px;
+}
+.kanan{
+    width: 70%;
+    margin-left: 50px;
+    padding: 50px;
+    float: left;
+    border-style:ridge;
+    border-width: 20px;
+    border-color: #C69749;
+    background-color: #00000073;
+    color: white;
+    box-shadow: 7px 7px 30px 0px rgba(0, 0, 0, 5);
+}
+.lbl{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.kotak{
+    border-radius: 12px;
+    border-width: 5px;
+    padding: 10px;
+    border-color: #C69749;
+    background-color: #00000073;
+    color: white;
+}
+.txt{
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 3px;
+}
+.lbl1{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.harga{
+    border-style: solid;
+    border-color: #C69749;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    background-color: #00000073;
+}
+
+.pay{
+    border-style: solid;
+    border-color: #C69749;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    background-color: #00000073;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.lbl2{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.tekan > button{
+    margin-top: 50px;
+    background-color: #C69749;
+    color: #282a3a;
+    font-weight: 700    ;
+    padding: 10px 5px 10px;
+    width: 40%;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.tekan > button:hover{
+    background-color: #c696496a;
+    color: #282a3a6a;
+}
+@media (max-width: 576px){
+    .semua{
+        visibility: hidden;
+    }
+}
+@media (min-width: 577px){
+    .semua{
+        width: 100%;
+        float: left;
+    }
+    .searchbox{
+        visibility: hidden;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .kiri{
+        width: 100%;
+        margin: 50px;
+    }
+    .kanan{
+        width: 100%;
+        margin: 50px;
+    }
+    .a2{
+        width: 100%;
+        float: left;
+    }
+    .a4{
+        width: 100%;
+        float: left;
+    }
+}
+@media (min-width: 768px){
+    .semua{
+        width: 100%;
+    }
+    .searchbox{
+        visibility:visible;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .kiri{
+        width: 100%;
+        margin: 50px;
+    }
+    .kanan{
+        width: 100%;
+        margin: 50px;
+    }
+    
+    .a4{
+        width: 100%;
+        float: left;
+    }
+}
+@media (min-width: 1200px){
+    .semua{
+        width: 100%;
+    }
+    .searchbox{
+        visibility:visible;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .kiri{
+        width: 100%;
+        margin: 50px;
+    }
+    .kanan{
+        width: 100%;
+        margin: 50px;
+    }
+    
+    .a4{
+        width: 90%;
+        float: left;
+    }
+}
+@media (min-width: 1920px){
+    .semua{
+        width: 100%;
+    }
+    .searchbox{
+        visibility:visible;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .kiri{
+        width: 100%;
+        margin: 50px;
+    }
+    .kanan{
+        width: 100%;
+        margin: 50px;
+    }
+    
+    .a4{
+        width: 100%;
+        float: left;
+    }
+}

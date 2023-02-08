@@ -1,0 +1,707 @@
+
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #282a3a;
+    max-width: 100%;
+    scroll-behavior: smooth;
+}
+.semua{
+    max-width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 7px 15px 0px rgba(0, 0, 0, 5);
+}
+.brand{
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.brand > .firstname > a{
+    color: #C69749;
+    text-decoration: none;
+    
+}
+.firstname{
+    font-size: 30px;
+    font-weight: 700;
+    color: #C69749;
+    font-style: italic;
+}
+.lastname{
+    font-size: 15px;
+    font-weight: 200;
+    padding-left: 5px;
+    color: white;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.navigation > li{
+    list-style-type: none;
+    padding: 15px;
+}
+.navigation > li > a{
+    color: #282a3a;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+.login{
+    background-color: #C69749;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.login:hover{
+    background-color: #c6964967;
+    color: whitesmoke;
+}
+.searchbox{
+    background-color: #C69749;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.searchbox > input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px;
+}
+.searchbox > input::placeholder{
+    color: black;
+}
+/* ----------------------------------------------------------------- */
+.pertama{
+    float: left;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 100%;
+    background-image: url(body.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 7px 7px 30px 0px rgba(0, 0, 0, 5);
+
+}
+.guide{
+    padding-left: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #C69749;
+}
+.getting{
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+.tekan{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    color: white;
+    border-style: solid;
+    border-color: #C69749;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.tekan:hover{
+    background-color:#C69749;
+}
+.tekan > a{
+    text-decoration: none;
+    color: white;
+}
+
+/* -------------------------------------------------------------*/
+.kedua{
+    margin-top: 100px;
+    float: left;
+    padding-top: 100px;
+    box-shadow: 7px 7px 30px 0px rgba(0, 0, 0, 5);
+}
+.games{
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+.games > i{
+    padding: 10px;
+}
+.isi1{
+    margin-right: 50px;
+}
+.catalog-a{
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+    margin: 20px;
+}
+.catalog-b{
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+    margin: 20px;
+}
+.catalog1{
+    border-style: ridge;
+    border-color: #C69749;
+    border-radius: 5px;
+    border-width: 10px;
+    float: left;
+    margin: 15px;
+    background-color: #ecdbba25;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+.catalog1 > a {
+    text-decoration: none;
+    color: white;
+}
+.catalog1:hover{
+    transform:scale(1.1);
+}
+.logo > img{
+    max-width: 100%;
+}
+
+/* ----------------------------------------------------- */
+.ketiga{
+    margin-top: 100px;
+    padding-left: 100px;
+    float: left;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    border-style:ridge;
+    border-width: 20px;
+    border-color: #C69749;
+    background-color: #00000073;
+    box-shadow: 7px 7px 30px 0px rgba(0, 0, 0, 5);
+}
+.kiri{
+    width: 50%;
+    margin: 20px;
+    padding: 30px;
+}
+.kiri > img {
+    max-width: 100%;
+}
+.kanan{
+    float: left;
+    width: 50%;
+    color: white;   
+}
+.judul{
+    font-size: 50px;
+    font-weight:700;
+    padding-bottom: 40px;
+}
+.getting1{
+    margin-top: 50px;
+}
+/* ---------------------------------------------- */
+.keempat{
+    margin-top: 25px;
+    padding-left: 100px;
+    float: left;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    background-image: url(hayabg.png);
+    background-position: center;
+    background-size: cover;
+}
+.kiri1{
+    margin: 20px;
+    padding: 30px;
+}
+.kiri1 > img {
+    max-width: 100%;
+}
+.tekan1{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    color: white;
+    border-style: solid;
+    border-color: #C69749;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.tekan1:hover{
+    background-color:#C69749;
+}
+.tekan1 > a{
+    text-decoration: none;
+    color: white;
+}
+/* ------------------------------------ */
+@media (max-width: 576px) {
+    .semua{
+        visibility: hidden;
+    }
+}
+@media (min-width: 576px) {
+    .semua {
+        width: 100%;
+    }
+    .searchbox{
+        visibility: hidden;
+    }
+    /* ---------- */
+    .pertama{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .guide{
+        text-align: center;
+        padding: 10px;
+        font-size: 50px;
+    }
+    .getting{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    /* ------------------ */
+    .kedua{
+        width: 100%;
+        padding: 25px;
+    }
+    .games{
+        width: 100%;
+        padding-left: 40px;
+    }
+    .isi1{
+        display: flex;
+        flex-direction: row;
+    }
+    .catalog1{
+        width: 100%;
+        height: 300px;
+    }
+    /* ---------- */
+    .ketiga{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .kiri{
+        width: 100%;
+        align-items: center;
+    }
+    .kanan{
+        width: 100%;
+        text-align: center;
+
+    }
+    .getting1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /* --------------- */
+    .keempat{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .kiri1{
+        width: 100%;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .semua{
+        width: 100%;
+    }
+    .searchbox{
+        visibility:visible;
+    }
+    .kedua{
+        width: 100%;
+        height: 100%
+    }
+    .games{
+        width: 100%;
+    }
+    .isi1{
+        display: flex;
+        flex-direction: row;
+    }
+    .catalog-a{
+        width: 50%;
+    }
+    .catalog-b{
+        width: 50%;
+    }
+    .catalog1{
+        width: 100%;
+        height: 250px;
+    }
+    .tag{
+        padding: 10px;
+    }
+    /* ---------- */
+    .ketiga{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .kiri{
+        width:70%;
+        align-items: center;
+    }
+    .kanan{
+        width: 100%;
+        text-align: center;
+
+    }
+    .getting1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /* --------------- */
+    .keempat{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .kiri1{
+        width: 70%;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .semua{
+        width: 100%;
+    }
+    
+    .searchbox{
+        visibility:visible;
+    }
+    .pertama{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .guide{
+        text-align: left;
+        padding: 10px;
+        font-size: 50px;
+    }
+    .getting{
+        display: flex;
+        align-items: left   ;
+        justify-content: left;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .kedua{
+        width: 100%;
+        height: 100%;
+    }
+    .games{
+        width: 100%;
+    }
+    .isi1{
+        display: flex;
+        flex-direction: column;
+    }
+    .catalog-a{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .catalog-b{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .catalog1{
+        width: 100%;
+        height: 200px;
+    }
+    .tag{
+        padding: 10px;
+    }
+    /* ---------- */
+    .ketiga{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+    }
+    .kiri{
+        width:70%;
+        align-items: center;
+    }
+    .kanan{
+        width: 100%;
+        text-align: left;
+
+    }
+    .getting1{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /* --------------- */
+    .keempat{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+    }
+    .kiri1{
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .semua{
+        width: 100%;
+    }
+    
+    .searchbox{
+        visibility:visible;
+    }
+    .pertama{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .guide{
+        text-align: left;
+        margin-top: 150px;
+        padding: 10px;
+        font-size: 50px;
+    }
+    .getting{
+        display: flex;
+        align-items: left   ;
+        justify-content: left;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .kedua{
+        width: 100%;
+        height: 100vh;
+    }
+    .games{
+        width: 100%;
+        padding-top: 0px;
+    }
+    .isi1{
+        display: flex;
+        flex-direction: column;
+    }
+    .catalog-a{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .catalog-b{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .catalog1{
+        width: 100%;
+        height: 225px;
+    }
+    .tag{
+        padding: 10px;
+    }
+    /* ---------- */
+    .ketiga{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+    }
+    .kiri{
+        width:50%;
+        align-items: center;
+    }
+    .kanan{
+        width: 100%;
+        text-align: left;
+
+    }
+    .getting1{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /* --------------- */
+    .keempat{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+    }
+    .kiri1{
+        width: 100%;
+        align-items: center;
+    }
+}
+@media (min-width: 1920px) {
+    .semua{
+        width: 100%;
+    }
+    
+    .searchbox{
+        visibility:visible;
+    }
+    .pertama{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .guide{
+        text-align: left;
+        margin-top: 200px;
+        padding: 10px;
+        font-size: 50px;
+    }
+    .getting{
+        display: flex;
+        align-items: left   ;
+        justify-content: left;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .kedua{
+        width: 100%;
+        height: 100vh;
+    }
+    .games{
+        width: 100%;
+    }
+    .isi1{
+        display: flex;
+        flex-direction: column;
+    }
+    .catalog-a{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .catalog-b{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .catalog1{
+        width: 100%;
+        height: 300px;
+    }
+    .tag{
+        padding: 10px;
+    }
+    /* ---------- */
+    .ketiga{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+    }
+    .kiri{
+        width:70%;
+        align-items: center;
+    }
+    .kanan{
+        width: 100%;
+        text-align: left;
+
+    }
+    .getting1{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /* --------------- */
+    .keempat{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+    }
+    .kiri1{
+        width: 100%;
+        align-items: center;
+    }
+}
